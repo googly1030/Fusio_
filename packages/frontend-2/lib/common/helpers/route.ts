@@ -23,6 +23,7 @@ export const defaultZapierWebhookUrl =
 export const guideBillingUrl = 'https://speckle.guide/workspaces/billing.html'
 export const bookDemoRoute = '/book-a-demo'
 export const onboardingRoute = '/onboarding'
+export const dashboardRoute = '/dashboard'
 
 export const settingsUserRoutes = {
   profile: '/settings/user/profile',
@@ -152,6 +153,7 @@ export const useNavigateToLogin = buildNavigationComposable(loginRoute)
 export const useNavigateToRegistration = buildNavigationComposable(registerRoute)
 export const useNavigateToForgottenPassword =
   buildNavigationComposable(forgottenPasswordRoute)
+export const useNavigateToDashboard = buildNavigationComposable(dashboardRoute)
 
 export const useNavigateToProject = () => {
   const router = useRouter()

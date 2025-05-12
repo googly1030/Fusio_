@@ -38179,6 +38179,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-vue-next@npm:^0.509.0":
+  version: 0.509.0
+  resolution: "lucide-vue-next@npm:0.509.0"
+  peerDependencies:
+    vue: ">=3.0.1"
+  checksum: 10/50cfeb08250d9c1e978ea8c300c8eee277defb9fd99810fbbbca934f566f6c12ab12796de1e95df5213710dbc6266b589fae37d10a6184d5739974a218ca43ae
+  languageName: node
+  linkType: hard
+
 "luxon@npm:^3.0.1":
   version: 3.2.1
   resolution: "luxon@npm:3.2.1"
@@ -47145,6 +47154,7 @@ __metadata:
     husky: "npm:^7.0.4"
     lint-staged: "npm:^12.3.7"
     lockfile: "npm:^1.0.4"
+    lucide-vue-next: "npm:^0.509.0"
     npkill: "npm:^0.12.2"
     pino-pretty: "npm:^9.1.1"
     prettier: "npm:^2.5.1"

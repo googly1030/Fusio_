@@ -47,6 +47,10 @@ const createNewVerificationFactory =
 
     const verificationCode = await deps.deleteOldAndInsertNewVerification(user.email)
 
+    console.log('======================================================')
+    console.log(`🔑 VERIFICATION CODE FOR ${user.email}: ${verificationCode}`)
+    console.log('======================================================')
+
     return {
       user,
       email,
@@ -92,6 +96,11 @@ const createNewEmailVerificationFactory =
     const verificationCode = await deps.deleteOldAndInsertNewVerification(
       emailRecord.email
     )
+    
+    console.log('======================================================')
+    console.log(`🔑 VERIFICATION CODE FOR ${emailRecord.email}: ${verificationCode}`)
+    console.log('======================================================')
+    
     return {
       user,
       email: emailRecord,
